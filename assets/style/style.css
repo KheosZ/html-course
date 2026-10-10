@@ -1,0 +1,23 @@
+html {
+    background-color: rgb(214, 138, 180);
+    font-size: 20px;
+}
+
+a {
+    color: rgb(114, 0, 29);
+}
+
+code {
+    color: rgb(253, 230, 216);
+    font-weight: bolder;
+}
+
+h1 {
+    color: rgb(77, 18, 64);
+    
+}
+
+span.freaky {
+    color:rgb(255, 224, 234);
+    background: rgb(173, 82, 120);
+}
