@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structuring Document</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" href="../icon/icon.ico">
+</head>
+<body>
+    <h1>Basic Section of Document</h1>
+    <p>
+        there are few components that shaped webpages together.
+        <ul>
+            <dt>Header</dt>
+            <dd>
+                is a big heading, title or Something at the start of a page.
+            </dd> <br>
+            <dt>Navigation bar</dt>
+            <dd>
+                is some sort of shortcut to navigate through website. like a menu button or
+                link to some section of the website. not a requirement but gonna be 
+                super helpful for user when the website is growing big.
+            </dd> <br>
+            <dt>Main content</dt>
+            <dd>
+                this is where the majority content is placed. contating images,
+                text, audio or something. its just the main content of the website.
+            </dd> <br>
+            <dt>Sidebar</dt>
+            <dd>
+                maybe i see it as side content. or almost the same as <em>Navigation Bar</em>.
+                might contains search bar, check box when the website have organized items.
+                or shortcut to popular pages, author biography or even marking each chapter
+                in the pages
+            </dd> <br>
+            <dt>Footer</dt>
+            <dd>
+                usually, its a strip at the bottom of the pages. contains copyright notices,
+                contact info or other secondary information besides the header. 
+            </dd>
+        </ul>
+    </p>
+    <h1>Structuring Html</h1>
+    <p>
+        number of tag that can be used to make some sections is
+        <code><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/header" target="_blank">&lt;header&gt;</a>, 
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/nav" target="_blank">&lt;nav&gt;</a>,
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/main" target="_blank">&lt;main&gt;</a>,
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/article" target="_blank">&lt;article&gt;</a>,
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/section" target="_blank">&lt;section&gt;</a>,
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/div" target="_blank">&lt;div&gt;</a>,
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/aside" target="_blank">&lt;aside&gt;</a>,
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/footer" target="_blank">&lt;footer&gt;</a>.</code>
+        damn they're a lot. i would just read them in each of their article
+    </p>
+    <header>
+        <a class="header" href="../../index.html">Yaku Neko</a>
+    </header>
+    <article class="gepuk">
+        <article class="gepuk-list">
+            <h1>Ayam Geprek pak Mat</h1>
+        </article>
+        <article class="gepuk-list">
+            <h1>Ayam Geprek bu Dian</h1>
+        </article>
+        <article class="gepuk-list">
+            <h1>Ayam Geprek Bakar pak Budi</h1>
+        </article>
+    </article>
+    <p>alright. that was horrible and doesn't look good at all. maybe
+        i will do experiment more in the near future. let's take a quick notes for each
+        element above.
+        <ul>
+            <li><code>&lt;main&gt;</code></li>
+            <dd>
+                is used to mark unique information on each page. so, only use
+                once per page and should not be nested within another elements.
+            </dd> <br>
+            <li><code>&lt;article&gt;</code></li>
+            <dd>
+                enclosed a block of a related content. maybe i've seen it on
+                news article or movie piracy sites. my tries above with smacked chicken
+                picture doesnt look good at all
+            </dd> <br>
+            <li><code>&lt;section&gt;</code></li>
+            <dd>
+                like <code>&lt;article&gt;</code>. but i still don't see
+                the main usage of it.
+            </dd> <br>
+            <li><code>&lt;aside&gt;</code></li>
+            <dd>
+                used to provide additional information besides the main content.
+            </dd> <br>
+            <li><code>&lt;header&gt;</code></li>
+            <dd>
+                contains introductory content. could be title or something
+            </dd> <br>
+            <li><code>&lt;nav&gt;</code></li>
+            <dd>
+                navigation for related page.
+            </dd> <br>
+            <li><code>&lt;footer&gt;</code></li>
+            <dd>
+                groping content at the end of a page.
+            </dd> <br>
+            <li><code>&lt;div&gt;</code></li>
+            <dd>
+                div could be used to group contents when there are no semantics usage.
+                idk bro, my english is bad. but in the way i understand it is to separate
+                contents within class so it could be accessed in css or js
+            </dd> <br>
+            <li><code>&lt;span&gt;</code></li>
+            <dd>
+                more like a <code>&lt;div&gt;</code>. but maybe more toward wrapping
+                a text.
+            </dd> <br>
+            <li><code>&lt;br&gt;</code></li>
+            <dd>
+                to break line inside paragraph. 
+            </dd> <br>
+            <li><code>&lt;hr&gt;</code></li>
+            <dd>
+                like <code>&lt;br&gt;</code>. but instead of empty line, it's an actual line.
+                i guess it could be styled with css.
+            </dd> <hr>
+        </ul>
+    </p>
+</body>
+</html>
