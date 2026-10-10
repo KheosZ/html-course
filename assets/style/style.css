@@ -2,22 +2,45 @@ html {
     background-color: rgb(214, 138, 180);
     font-size: 20px;
 }
-
 a {
     color: rgb(114, 0, 29);
+    text-decoration: none;
+    font-weight: bolder;
 }
-
-code {
+code, a{
     color: rgb(253, 230, 216);
     font-weight: bolder;
 }
-
 h1 {
     color: rgb(77, 18, 64);
     
 }
-
 span.freaky {
     color:rgb(255, 224, 234);
     background: rgb(173, 82, 120);
+}
+.header {
+    background: url(https://i.pinimg.com/736x/02/28/bd/0228bdefb76828b70d477eb0fb163695.jpg);
+    background-position: 50% 35%;
+    background-size: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    font-size: 50px;
+    filter: brightness(0.9);
+    color: rgb(29, 31, 3);
+}
+.gepuk {
+    margin: 40px;
+}
+.gepuk-list > h1 {
+    background: url(https://i.pinimg.com/736x/1b/ca/fc/1bcafc5d6ef9d45d3de9aa09d2fddfaf.jpg);
+    filter: grayscale(0.4);
+    color: rgb(59, 33, 6);
+}
+.lost_americana {
+    display: flex;
+    margin: auto;
+    justify-content: center;
 }
